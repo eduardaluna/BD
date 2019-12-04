@@ -47,9 +47,39 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Clientes">
+          <a class="nav-link" href="clientes">
             <i class="material-icons">person</i>
             <p>Clientes</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Produtos">
+            <i class="material-icons">person</i>
+            <p>Produtos</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Fornecedores">
+            <i class="material-icons">person</i>
+            <p>Fornecedores</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Estoques">
+            <i class="material-icons">person</i>
+            <p>Estoques</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Armazéns">
+            <i class="material-icons">person</i>
+            <p>Armazens</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Pedidos">
+            <i class="material-icons">person</i>
+            <p>Pedidos</p>
           </a>
         </li>
       </ul>
