@@ -2,7 +2,7 @@
 
 namespace Models;
 
-use Models\Model;
+use Model\Model;
 use Helpers\Validate;
 
 class Armazem extends Model
