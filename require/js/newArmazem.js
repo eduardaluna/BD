@@ -9,7 +9,7 @@ function criarArmazem(){
         }
         ).done(function( data ) {
             if(data == 'ok'){
-              $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-success").text("Usuário cadastrado!");
+              $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-success").text("Armazém cadastrado!");
               setTimeout(function(){location.href='armazens'}, 1200);
             }else{
               $("#ErrorLog").removeClass("hideAll alert-success").addClass("alert-danger").text(data);
@@ -29,7 +29,7 @@ function criarArmazem(){
           }
           ).done(function( data ) {
               if(data == 'ok'){
-                $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-success").text("Usuário alterado!");
+                $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-success").text("Armazém alterado!");
                 setTimeout(function(){location.href='armazens'}, 1200);
               }else{
                 $("#ErrorLog").removeClass("hideAll alert-success").addClass("alert-danger").text(data);
@@ -46,7 +46,7 @@ function criarArmazem(){
             }
             ).done(function( data ) {
                 if(data == 'ok'){
-                  $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-danger").text("Armazém removido com sucesso!");
+                  $("#ErrorLog").removeClass("hideAll alert-success").addClass("alert-success").text("Armazém removido com sucesso!");
                   setTimeout(function(){location.href='armazens'}, 1200);
                 }else{
                   $("#ErrorLog").removeClass("hideAll alert-danger").addClass("alert-danger").text(data);

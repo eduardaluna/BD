@@ -14,5 +14,10 @@ class Estoque extends Model
         $estoques = $this->database->select($this->table)->where(['id','=',$id])->getAll();
       return $estoques;
     }
+
+    public function getEstoqueByArmazem($id){
+      $estoques = $this->database->select($this->table)->where(['Armazem_id','=',$id])->getAll();
+    return $estoques;
+  }
 }
 ?>
