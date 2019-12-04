@@ -71,9 +71,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Armazéns">
+          <a class="nav-link" href="Armazens">
             <i class="material-icons">person</i>
-            <p>Armazens</p>
+            <p>Armazéns</p>
           </a>
         </li>
         <li class="nav-item">
