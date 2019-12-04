@@ -82,6 +82,12 @@
             <p>Pedidos</p>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Consultas">
+            <i class="material-icons">person</i>
+            <p>Consultas</p>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
