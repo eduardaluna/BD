@@ -2,7 +2,7 @@
     use Models\Armazem;
     $armazem  = new Armazem();   
     $vetor  = $armazem->All();
-
+    
     $getlink = $_SERVER["REQUEST_URI"];
     $getlink = explode('=', $getlink);
     $armazem->find($getlink[1]);

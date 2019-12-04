@@ -45,7 +45,7 @@
               <br><br>
               <div id="ErrorLog" class="hideAll alert alert-danger col-12 center"></div>
               <button type="submit" class="btn btn-info pull-right"
-                onclick="criarUsuario()">Criar Fornecedor</button>
+                onclick="criarFornecedor()">Criar Fornecedor</button>
               <div class="clearfix"></div>
             </div>
           </div>
