@@ -1,10 +1,10 @@
-<?php 
+<?php
     use Models\Cliente;
-    $cliente  = new Cliente();   
+    $cliente  = new Cliente();
     use Models\Telefone;
-    $telefone  = new Telefone(); 
+    $telefone  = new Telefone();
     use Models\Email;
-    $email  = new Email();  
+    $email  = new Email();
     $vetor  = $cliente->All();
 
     $getlink = $_SERVER["REQUEST_URI"];
@@ -18,10 +18,9 @@
     <div class="row">
       <div class="col-md-8" >
         <input type="hidden" value="<?= $cliente->id?>" id="id">
-        
         <div class="card">
           <div class="card-header card-header-primary">
-            <h4 class="card-title">Cadastro de pessoas</h4>
+            <h4 class="card-title">Edição de Cliente</h4>
             <p class="card-category">Atenção nas informações!</p>
           </div>
           <div class="card-body">
@@ -34,17 +33,18 @@
                   </div>
                 </div>
                 <div class="col-md-12">
-                <div class="form-group">
+                  <div class="form-group">
                     <label class="bmd-label-floating">CPF</label>
                     <input type="text" id="cpf" value="<?=$cliente->cpf?>" class="form-control">
                   </div>
                 </div>
               </div>
-              <div class="row"><div class="col-md-6">
-                    <div class="form-group">
-                        <label class="bmd-label-floating">Limite de Crédito</label>
-                        <input type="text" id="limite" value="<?=$cliente->limiteDeCredito?>" class="form-control"> 
-                    </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Limite de Crédito</label>
+                    <input type="text" id="limite" value="<?=$cliente->limiteDeCredito?>" class="form-control">
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -72,8 +72,9 @@
               <button type="submit" class="btn btn-info pull-right"
               onclick="edtarUsuario()">Editar Cliente</button>
               <div class="clearfix"></div>
+            </div>
           </div>
-          </div></div>
+        </div>
       </div>
       <div class="col-md-4">
         <div class="card card-profile">
@@ -88,12 +89,9 @@
               onclick="removerUsuario()">Remover Cliente</button>
           </div>
         </div>
-        
-        
       </div>
       <div class="col-md-8" >
         <input type="hidden" value="<?= $cliente->id?>" id="id">
-        
         <div class="card">
           <div class="card-header card-header-primary">
             <h4 class="card-title">Telefones</h4>
@@ -110,14 +108,13 @@
                   </div>
                 </div>
               <?php } ?>
+              </div>
             </div>
           </div>
-          </div></div>
+        </div>
       </div>
-
       <div class="col-md-4" >
         <input type="hidden" value="<?= $cliente->id?>" id="id">
-        
         <div class="card">
           <div class="card-header card-header-primary">
             <h4 class="card-title">Emails</h4>
@@ -134,11 +131,11 @@
                   </div>
                 </div>
               <?php } ?>
+              </div>
             </div>
           </div>
-          </div></div>
+        </div>
       </div>
-      
+    </div>
   </div>
-  
 </div>

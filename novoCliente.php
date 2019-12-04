@@ -26,12 +26,12 @@
                   </div>
                 </div>
               </div>
-              <div class="row"><div class="col-md-6">
-                    <div class="form-group">
-                        <label class="bmd-label-floating">CPF</label>
-                         <input type="text" id="cpf" class="form-control"> 
-                        </select>
-                    </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">CPF</label>
+                    <input type="text" id="cpf" class="form-control">
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -87,7 +87,7 @@
             <h6 class="card-category text-gray">Nova pessoa</h6>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
